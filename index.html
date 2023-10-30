@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./CSS/styles.css">
-    <title>Static Template</title>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <title>VNW - Desafio 02</title>
 </head>
-
 <body>
     <header>
         <nav>
@@ -24,25 +23,87 @@
             <img src="./assets/prime-video.png" alt="Banner-Prime-Vídeo" />
         </section>
         <section class="filmes" id="filmes">
-
+            <div class="container-geral">
+                <div class="container">
+                    <button class="arrow-left control" aria-label="Previous image">
+                        ◀
+                    </button>
+                    <button class="arrow-right control" aria-label="Next Image">
+                        ▶
+                    </button>
+                    <div class="gallery-wrapper">
+                        <div class="gallery">
+                            <div class="item-container">
+                                <img src="./assets/inter.png" alt="Interstellar" class="item current-item" />
+                                <h2>Interstellar</h2>
+                            </div>
+                            <div class="item-container">
+                                <img src="./assets/top.png" alt="Top Gun" class="item current-item" />
+                                <h2>Top Gun</h2>
+                            </div>
+                            <div class="item-container">
+                                <img src="./assets/guardioes.png" alt="Guardiões-da-Galaxia"
+                                    class="item current-item" />
+                                <h2>Guardiões da Galaxia</h2>
+                            </div>
+                            <div class="item-container">
+                                <img src="./assets/terminator.png" alt="Terminator" class="item current-item" />
+                                <h2>The Terminator</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="series" id="series">
-
+            <div class="container-geral">
+                <div class="container">
+                    <button class="arrow-left control" aria-label="Previous image">
+                        ◀
+                    </button>
+                    <button class="arrow-right control" aria-label="Next Image">
+                        ▶
+                    </button>
+                    <div class="gallery-wrapper">
+                        <div class="gallery">
+                            <div class="item-container">
+                                <img src="./assets/boys.png" alt="The-Boys" class="item current-item" />
+                                <h2>The Boys</h2>
+                            </div>
+                            <div class="item-container">
+                                <img src="./assets/big.png" alt="the-big-bag-theory" class="item current-item" />
+                                <h2>The Big Bang Theory</h2>
+                            </div>
+                            <div class="item-container">
+                                <img src="./assets/aneis.png" alt="aneis-de-poder" class="item current-item" />
+                                <h2>Anéis de Poder</h2>
+                            </div>
+                            <div class="item-container">
+                                <img src="./assets/chris.png" alt="todo-mundo-odeia-o-Chris"
+                                    class="item current-item" />
+                                <h2>Todo Mundo Odeia o Chris</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
-        <p>© Prime Video © Prime•Video © & ™ Aneis do Poder LTD © 2022 MARVERICK. Reservados todos os direitos, Prime
-            Video</p>
+        <p>
+            © Prime Video © Prime•Video © & ™ Aneis do Poder LTD © 2022 MARVERICK.
+            Reservados todos os direitos, Prime Video
+        </p>
         <div class="links">
             <div class="social-container">
-                <img src="./assets/youtube.png" alt="youtube-logo">
-                <img src="./assets/instagram.png" alt="instagram-logo">
+                <img src="./assets/youtube.png" alt="youtube-logo" />
+                <img src="./assets/instagram.png" alt="instagram-logo" />
             </div>
             <div class="logo-container">
-                <img src="./assets/logo.png" alt="prime-vide-logo">
+                <img src="./assets/logo.png" alt="prime-vide-logo" />
             </div>
         </div>
     </footer>
+    <script src="./JS/main.js"></script>
 </body>
-
 </html>

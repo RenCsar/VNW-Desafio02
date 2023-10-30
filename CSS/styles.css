@@ -102,3 +102,82 @@ footer {
 .logo-container img {
     height: 50px;
 }
+
+.filmes,
+.series {
+    display: flex;
+    justify-content: center;
+}
+
+.container-geral {
+    position: relative;
+    width: 1050px;
+}
+
+.container {
+    padding: 15px;
+    width: 985px;
+    height: 500px;
+    margin: 40px auto;
+    user-select: none;
+}
+
+.gallery-wrapper {
+    overflow-x: auto;
+}
+
+.arrow-left,
+.arrow-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 50px;
+    color: var(--azul);
+    transition: all 600ms ease-in-out;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+    transform: scale(1.03);
+}
+
+.arrow-right {
+    right: 0;
+    left: auto;
+    text-align: right;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item {
+    /* width: 250px; */
+    height: 450px;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+}
+
+.gallery-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery-wrapper {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
