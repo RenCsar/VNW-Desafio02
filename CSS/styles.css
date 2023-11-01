@@ -60,6 +60,16 @@ ul {
     width: 500px;
 }
 
+li {
+    transition: .6s;
+}
+
+li:hover {
+    color: var(--azul);
+    transform: scale(1.1);
+    transition: .6s;
+}
+
 .banner img {
     height: 435px;
     width: 100%;
@@ -167,7 +177,6 @@ footer {
 }
 
 .item {
-    /* width: 250px; */
     height: 450px;
     flex-shrink: 0;
     transition: all 600ms ease-in-out;
